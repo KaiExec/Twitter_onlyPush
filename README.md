@@ -12,7 +12,7 @@ API_SECRET=xxxxxxxxx
 ACCESS_TOKEN=xxxxxxx
 ACCESS_TOKEN_SECRET=xxxxxxx
 ```
-4. Change the KeyScretPath into your own path in *onlyPush.py*
+4. Change the KeySecretPath into your own path in *onlyPush.py*
 > eg: "/User/eleph/Documents/OAuth/x.txt"
 
 5. Change the directory into where you want to save your tweet locally in *onlyPush.py*
