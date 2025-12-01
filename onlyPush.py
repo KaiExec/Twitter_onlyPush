@@ -37,11 +37,11 @@ subprocess.run(["nvim",file])
 
 text = ''
 with open(file) as f:
-    text = f.read()
+    text = f.read().strip()
 
 if len(text) < 140:
     # Tweet Preview
-    print(f"Sure to post(y/n)? This tweet is like this:\n{text}")
+    print(f"Sure to post(y/n)? This tweet is like this:\n++++++++\n{text}\n++++++++")
 else:
     print("😿Damn Twitter limits your expression")
     exit(0)
